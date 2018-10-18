@@ -32,7 +32,7 @@ end
 
 def for_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  arr = number_of_times.to_arr
+  arr = number_of_times.to_a
   for time in arr
     puts phrase
   end
